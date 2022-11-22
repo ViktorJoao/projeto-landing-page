@@ -76,6 +76,7 @@ div#primeiro-conteudo{
     height: 500px;
     background-color: white;
     margin: auto;
+   margin-top: 15px;
     
 }
 
@@ -84,7 +85,7 @@ div#segundo-conteudo{
     height: 500px;
     background-color: white;
     margin: auto;
-    margin-top: 15px;
+   margin-top: 15px;
 }
 
 
@@ -108,11 +109,12 @@ div#imagem-1{
    color: rgb(48, 44, 44);
 }
 #conteudo-imagem-1 > p{
+    display: block;
     width: 380px;
     margin: auto;
     font-size: 1.1em;
     text-align: center;
-    padding: 20px;
+    
 }
 #conteudo-imagem-2 > h2{
     text-align: center;
@@ -213,4 +215,7 @@ div#elemento-final > p{
 div#elemento-final > p >a{
     text-decoration: none;
     color: rgb(69, 69, 240);
+}
+#mobile{
+    display: block;
 }
