@@ -7,7 +7,9 @@
 }
 section{
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    background-color: rgb(53, 52, 52);
+    padding-bottom: 30px;
 }
 div#sessao-1{
     width: 100%;
@@ -66,7 +68,7 @@ div#sessao-2 > p{
     padding-bottom: 20px;
 }
 div#sessao-3{
-    background-color: rgb(53, 52, 52);
+    
     padding-top: 35px;
 }
 div#primeiro-conteudo{
@@ -75,4 +77,140 @@ div#primeiro-conteudo{
     background-color: white;
     margin: auto;
     
+}
+
+div#segundo-conteudo{
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+div#terceiro-conteudo{
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+}
+div#imagem-1{
+    background: black url('../imagens/notebook.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+}
+#conteudo-imagem-1 > h2{
+   text-align: center;
+   padding: 20px;
+   font-size: 1.3em;
+   color: rgb(48, 44, 44);
+}
+#conteudo-imagem-1 > p{
+    width: 380px;
+    margin: auto;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 20px;
+}
+#conteudo-imagem-2 > h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.3em;
+    color: rgb(48, 44, 44);
+ }
+ #conteudo-imagem-2 > p{
+     width: 380px;
+     margin: auto;
+     font-size: 1.1em;
+     text-align: center;
+     padding: 20px;
+ }
+ #conteudo-imagem-3 > h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.3em;
+    color: rgb(48, 44, 44);
+ }
+ #conteudo-imagem-3 > p{
+     width: 380px;
+     margin: auto;
+     font-size: 1.1em;
+     text-align: center;
+     padding: 20px;
+ }
+
+div#imagem-2{
+    background: black url('../imagens/celular.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+}
+div#imagem-3{
+    background: black url('../imagens/tech.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+}
+article{
+    padding: 20px;
+    color: rgb(68, 63, 63);
+   
+}
+article > div > h2{
+    padding: 50px;
+    width: 360px;
+    text-align: center;
+}
+article > div > p{
+    text-align: center;
+    font-size: 1.2em;
+}
+div#primeiro-elemento{
+    background-color: rgb(99, 99, 175);
+    color: white;
+}
+div#primeiro-elemento > h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 1.7em;
+}
+div#primeiro-elemento > p{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    padding: 50px;
+}
+div#segundo-elemento{
+    background-color:rgb(53, 50, 50) ;
+    color: white;
+}
+div#segundo-elemento > h2{
+    font-size: 1.7em;
+    text-align: center;
+    padding: 10px;
+    padding-top: 50px;
+}
+div#segundo-elemento > p{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 20px;
+}
+div#elemento-final{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.1em;
+}
+div#elemento-final > p{
+    padding: 5px;
+}
+div#elemento-final > p >a{
+    text-decoration: none;
+    color: rgb(69, 69, 240);
 }
