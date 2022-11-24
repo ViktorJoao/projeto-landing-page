@@ -3,219 +3,76 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family:Arial, Helvetica, sans-serif ;
-}
-section{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(53, 52, 52);
-    padding-bottom: 30px;
-}
-div#sessao-1{
-    width: 100%;
-    height: 460px;
-    background: black url('../imagens/fundo.jpg') no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-div#sessao-1 > h1{
-    color: white;
-    font-size: 2.1em;
-    width: 390px;
-    text-align: center;
-    margin: auto;
-    padding-top: 100px;
-    line-height: 1.5em;
-}
-div#sessao-1 > p{
-    color: white;
-    width: 470px;
-    margin: auto;
-    text-align: center;
-    font-size: 1.2em;
-    padding-top: 20px;
-}
-div#sessao-1 > a{
+    list-style: none;
     text-decoration: none;
-    display: block;
-    text-align: center;
-    margin: auto;
-    background-color: rgba(68, 57, 57, 0.849);
-    border: 1px solid rgb(97, 95, 95);
-    color: white;
-    width: 110px;
-    padding: 20px;
-    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-div#sessao-1 > a:hover{
+body{
+    background: linear-gradient(to left, rgb(58, 53, 53) ,rgb(109, 96, 96));
+}
+.cabeçalho{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo-cabeçalho{
+    width: 70px;
+}
+.lista{
+    display: flex;
+    gap: 32px;
+}
+.items > a{
+    color: white;
+    padding: 3px;
+}
+.items > a:hover{
     background-color: white;
     color: black;
-    transition: .1s;
+    border-radius: 5px;
 }
-
-div#sessao-2{
-    background-color: rgb(223, 209, 209);
-    padding: 20px;
-    color: rgb(48, 44, 44);
-}
-div#sessao-2 > h2{
-    padding-bottom: 40px;
-    text-align: center;
-}
-div#sessao-2 > p{
-    font-size: 1.2em;
-    text-align: center;
-    padding-bottom: 20px;
-}
-div#sessao-3{
-    
-    padding-top: 35px;
-}
-div#primeiro-conteudo{
-    width: 450px;
-    height: 500px;
-    background-color: white;
-    margin: auto;
-   margin-top: 15px;
-    
-}
-
-div#segundo-conteudo{
-    width: 450px;
-    height: 500px;
-    background-color: white;
-    margin: auto;
-   margin-top: 15px;
-}
-
-
-div#terceiro-conteudo{
-    width: 450px;
-    height: 500px;
-    background-color: white;
-    margin: auto;
-    margin-top: 15px;
-}
-div#imagem-1{
-    background: black url('../imagens/notebook.jpg') no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 300px;
-}
-#conteudo-imagem-1 > h2{
-   text-align: center;
-   padding: 20px;
-   font-size: 1.3em;
-   color: rgb(48, 44, 44);
-}
-#conteudo-imagem-1 > p{
-    display: block;
-    width: 380px;
-    margin: auto;
-    font-size: 1.1em;
-    text-align: center;
-    
-}
-#conteudo-imagem-2 > h2{
-    text-align: center;
-    padding: 20px;
-    font-size: 1.3em;
-    color: rgb(48, 44, 44);
- }
- #conteudo-imagem-2 > p{
-     width: 380px;
-     margin: auto;
-     font-size: 1.1em;
-     text-align: center;
-     padding: 20px;
- }
- #conteudo-imagem-3 > h2{
-    text-align: center;
-    padding: 20px;
-    font-size: 1.3em;
-    color: rgb(48, 44, 44);
- }
- #conteudo-imagem-3 > p{
-     width: 380px;
-     margin: auto;
-     font-size: 1.1em;
-     text-align: center;
-     padding: 20px;
- }
-
-div#imagem-2{
-    background: black url('../imagens/celular.jpg') no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 300px;
-}
-div#imagem-3{
-    background: black url('../imagens/tech.jpg') no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 300px;
-}
-article{
-    padding: 20px;
-    color: rgb(68, 63, 63);
-   
-}
-article > div > h2{
-    padding: 50px;
-    width: 360px;
-    text-align: center;
-}
-article > div > p{
-    text-align: center;
-    font-size: 1.2em;
-}
-div#primeiro-elemento{
-    background-color: rgb(99, 99, 175);
-    color: white;
-}
-div#primeiro-elemento > h2{
-    text-align: center;
-    padding: 30px;
-    font-size: 1.7em;
-}
-div#primeiro-elemento > p{
-    width: 300px;
-    margin: auto;
-    text-align: center;
-    padding-bottom: 20px;
-    padding: 50px;
-}
-div#segundo-elemento{
-    background-color:rgb(53, 50, 50) ;
-    color: white;
-}
-div#segundo-elemento > h2{
-    font-size: 1.7em;
-    text-align: center;
-    padding: 10px;
+main{
+    border-top: .4px solid rgb(105, 100, 100);
     padding-top: 50px;
 }
-div#segundo-elemento > p{
+.titulo-imagem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagem-principal{
+    width: 300px;
+}
+.h3-paragrafo{
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    line-height: 1.4em;
+    padding-top: 50px;
+}
+div.h1-h3 > h1{
+    font-size: 2em;
+    color: white;
+    padding-bottom: 6px;
+}
+div.h1-h3 > h3{
+    font-size: 1em;
+    font-weight: 600px;
+}
+.h1-h3{
+    padding-left: 20px;
+}
+span{
+    color: black;
+}
+div.h3-paragrafo > h3{
+    border-top: 0.4px solid rgb(121, 114, 114);
     width: 300px;
     margin: auto;
-    text-align: center;
-    padding: 30px;
-    padding-bottom: 20px;
+    padding-top: 50px;
 }
-div#elemento-final{
-    background-color: black;
-    padding: 20px;
-    text-align: center;
-    color: white;
-    font-size: 1.1em;
+div.h3-paragrafo{
+    color: rgb(216, 190, 190);
 }
-div#elemento-final > p{
-    padding: 5px;
-}
-div#elemento-final > p >a{
-    text-decoration: none;
-    color: rgb(69, 69, 240);
-}
-#mobile{
-    display: block;
-}
+    
